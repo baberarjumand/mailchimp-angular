@@ -1,26 +1,17 @@
-# MailchimpAngularV1
+# Mailchimp-Angular
+
+This mini-project was used to test and implement a simple sign-up form for a MailChimp Campaign List in an Angular Application.
+<br><br>
+Get Your MailChimp Endpoint from the MailChimp website, by navigating to `Audience > Signup Forms > Embedded Forms`.<br>
+The endpoing URL is the `action` attribute of the `<form>` element.
+<br><br>
+This reference guide was used: [How to Make a Landing Page with MailChimp and Angular](https://medium.com/swlh/how-to-make-a-landing-page-with-mailchimp-and-angular-f2b636c5c7fa).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
