@@ -1,4 +1,10 @@
 <h1>Sample Form for testing MailChimp Integration in Angular</h1>
+<p>
+  This sample form is used to collect initial sign-up data from new
+  subscribers.<br />
+  These new subscribers are added to contacts under Audience of the MailChimp
+  campaign to which the provided endpoint points to.
+</p>
 <form [formGroup]="this.sampleForm" (ngSubmit)="this.onSubmit()" class="center">
   <p>Enter MailChimp Endpoint*:</p>
   <textarea
