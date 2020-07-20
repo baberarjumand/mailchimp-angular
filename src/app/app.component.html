@@ -1,5 +1,5 @@
 <h1>Sample Form for testing MailChimp Integration in Angular</h1>
-<form [formGroup]="this.sampleForm" (ngSubmit)="this.onSubmit()">
+<form [formGroup]="this.sampleForm" (ngSubmit)="this.onSubmit()" class="center">
   <p>Enter MailChimp Endpoint*:</p>
   <textarea
     formControlName="endpoint"
@@ -11,7 +11,7 @@
     <i
       >Note: <br />Get Your MailChimp Endpoint from Audience > Signup Forms >
       Embedded Forms<br />The endpoing URL is the 'action' attribute of the
-      'form' element</i
+      '&lt;form&gt;' element</i
     >
   </p>
   <p>Enter Email Address*:</p>
